@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pygame
-import random
-from enum import Enum
-from collections import namedtuple
-import SnakeGame
-
+from SnakeGame import SnakeGame
 
 if __name__ == '__main__':
     game = SnakeGame()

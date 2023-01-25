@@ -1,10 +1,14 @@
-import Direction
+# -*- coding: utf-8 -*-
+
+from Direction import Direction
 import pygame
 import random
 from collections import namedtuple
 
+
 pygame.init()
-font = pygame.font.Font('./src/arial.ttf', 25)
+
+font = pygame.font.Font('../src/arial.ttf', 25)
 Point = namedtuple('Point', 'x, y')
 
 # rgb colors
